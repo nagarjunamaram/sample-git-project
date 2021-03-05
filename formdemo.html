@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form demo</title>
+    </head>
+    <style>
+        label{
+            color:brown
+        }
+        
+        input{
+            color: blue
+        }
+    </style>
+    <body>
+        <form action="index.html">
+           <div>
+               <label>Name:</label>
+               <input type="text" name="userName" id="name" placeholder="username" required>
+            </div>
+            <div>
+                <label>Email:   </label>
+                <input type="email" id="email" name="email" placeholder="email" required>
+            </div>
+            <div>
+                <label>Message:</label><br>
+                <textarea rows="4" cols="50" placeholder="message"></textarea>
+            </div>
+            <div>
+            <label for="color">color: </label>
+            <input type="color" id="color">
+                </div>
+            <div>
+                <label for="date">Date:</label>
+            <input type="date" id="date">
+                </div>
+            <div>
+                <br>
+                <label>Agree terms and conditions</label>
+                <input type="checkbox" value="select" > <br>
+                <br>
+                <fieldset>
+                  <legend>num of Hours</legend>
+                    <label>1</label>
+                <input type="radio" name="radio1" value="one"><br>
+                      <label>2</label>
+                <input type="radio" name="radio1" value="two"><br>
+                      <label>3</label>
+                <input type="radio" name="radio1" value="three"><br>
+                    </fieldset>
+                <input type="submit">
+            </div>
+        </form>
+        
+    </body>
+</html>
